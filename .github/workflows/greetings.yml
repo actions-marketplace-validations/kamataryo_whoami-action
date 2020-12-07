@@ -10,4 +10,4 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-    - uses: kamataryo/whoami@v1
+    - uses: kamataryo/whoami-action@v1
