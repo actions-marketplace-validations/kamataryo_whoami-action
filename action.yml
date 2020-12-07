@@ -3,4 +3,4 @@ description: "My first GitHub Actions sandbox."
 author: "kamataryo <@kamataryo>"
 runs:
   using: 'docker'
-  image: 'docker://kamataryo/whoami:latest'
+  image: '/Dockerfile'
