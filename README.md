@@ -1,4 +1,4 @@
-# GitHub Actions `@kamataryo/whoami`
+# GitHub Actions `@kamataryo/whoami-action`
 
 My first GitHub Actions sandbox.
 
@@ -7,7 +7,7 @@ My first GitHub Actions sandbox.
 - install Docker
 - `docker login` to your registry, with DockerHub as default
 
-## build
+## build base image
 
 ```shell
 # build your image
