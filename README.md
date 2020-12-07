@@ -1,4 +1,4 @@
-# @kamataryo/whoami-action
+# GitHub Actions `@kamataryo/whoami`
 
 My first GitHub Actions sandbox.
 
