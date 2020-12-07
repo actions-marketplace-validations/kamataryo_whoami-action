@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "docker-whoami": "docker system info | grep -E 'Username|Registry'"
+    }
+}
