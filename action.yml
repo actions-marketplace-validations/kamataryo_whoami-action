@@ -1,0 +1,6 @@
+name: "whoami"
+description: "My first GitHub Actions sandbox."
+author: "kamataryo <@kamataryo>"
+runs:
+  using: 'docker'
+  image: 'kamataryo/whoami'

@@ -1,4 +1,6 @@
-# SANDBOX GitHub Actions
+# @kamataryo/whoami-action
+
+My first GitHub Actions sandbox.
 
 ## Prerequisite
 
@@ -9,12 +11,11 @@
 
 ```shell
 # build your image
-$ docker build --tag <username>/hello-gh-actions:latest .
+$ docker build --tag docker.io/<username>/whoami:latest .
 # run your image
-$ docker run -it <username>/hello-gh-actions:latest
+$ docker run -it docker.io/<username>/whoami:latest
 # push your image
-$ docker push <username>/hello-gh-actions:latest
+$ docker push docker.io/<username>/whoami:latest
 # (optionnal) check hub.docker.com
-$ open https://hub.docker.com/repository/docker/<username>/hello-gh-actions
+$ open https://hub.docker.com/repository/docker/<username>/whoami
 ```
-
