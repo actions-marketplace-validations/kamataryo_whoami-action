@@ -1,6 +1,10 @@
 name: Greetings
 
-on: [pull_request, issues]
+on:
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   greeting:
